@@ -10,9 +10,9 @@ const formatValue = (value: string | number | boolean) => {
   return value;
 }
 
-console.log(formatValue("jahid"))
-console.log(formatValue(5))
-console.log(formatValue(false))
+// console.log(formatValue("jahid"))
+// console.log(formatValue(5))
+// console.log(formatValue(false))
 
 
 const getLength = (value: string | any[]): number => {
@@ -23,8 +23,8 @@ const getLength = (value: string | any[]): number => {
   }
 }
 
-console.log(getLength("Bangladesh"));
-console.log(getLength([10, 20, 30, 40, 50]));
+// console.log(getLength("Bangladesh"));
+// console.log(getLength([10, 20, 30, 40, 50]));
 
 
 
@@ -42,10 +42,11 @@ class Person {
 }
 
 const person1 = new Person('John Doe', 30);
-console.log(person1.getDetails());
+// console.log(person1.getDetails());
 
 const person2 = new Person('Alice', 25);
-console.log(person2.getDetails());
+
+// console.log(person2.getDetails());
 
 
 
@@ -63,7 +64,7 @@ const books = [
   { title: 'Book C', rating: 5.0 }
 ]
 
-console.log(filterByRating(books));
+// console.log(filterByRating(books));
 
 
 
@@ -83,7 +84,7 @@ const users = [
   { id: 3, name: 'Rumi', email: 'rumi@example.com', isActive: true },
 ];
 
-console.log(filterActiveUsers(users));
+// console.log(filterActiveUsers(users));
 
 
 const getUniqueValues = (
@@ -133,7 +134,7 @@ interface Book {
 const printBookDetails = (book: Book) => {
   const { title, author, publishedYear, isAvailable } = book;
 
-  console.log(`"Title: ${title}, Author: ${author}, Published: ${publishedYear}, Available: ${isAvailable ? "Yes" : "No"}`)
+  // console.log(`"Title: ${title}, Author: ${author}, Published: ${publishedYear}, Available: ${isAvailable ? "Yes" : "No"}`)
 }
 
 const myBook: Book = {
@@ -173,4 +174,4 @@ const products = [
   { name: 'Bag', price: 50, quantity: 1, discount: 20 },
 ];
 
-console.log(calculateTotalPrice(products));
+// console.log(calculateTotalPrice(products));
